@@ -7,11 +7,3 @@ binary_search / wyszukiwanie_binarne
 5. If the guess was too low, that is, array[guess] < target, then set min = guess + 1.
 6. Otherwise, the guess was too high. Set max = guess - 1.
 7. Go back to step 2.
-
-------------------------------------------------------------------------------
-selection_sort / sortowanie przez wybieranie
-
-1. Find the smallest card. Swap it with the first card.
-2. Find the second-smallest card. Swap it with the second card.
-3. Find the third-smallest card. Swap it with the third card.
-4. Repeat finding the next-smallest card, and swapping it into the correct position until the array is sorted. 
